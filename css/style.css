@@ -1,0 +1,295 @@
+:root{
+    --white:#fff;
+    --gray: #C7C7C7;
+    --blue: #012D63;
+    --purple: #8E32C6;
+    --grey:#DCDCDC;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+p,ul,h1,h2,button{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: normal;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0 17px;
+}
+.header{
+    background-color: var(--blue);
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+.header-link{
+    color: var(--grey);
+    font-weight: 300;
+}
+.header-link:hover{
+    color: var(--white);
+}
+.language, .header-link_language{
+    color: var(--grey);
+font-weight: 300;
+}
+.language, .header-link_language:hover{
+    color: var(--white);
+}
+.hero{
+    background-color: var(--blue);
+    background-image: url("../Images/Fon1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 183px;
+}
+.hero-img{
+    padding-top: 94px;
+}
+.hero-text{
+    color: var(--white);
+font-family: "PT Serif", sans-serif;
+font-size: 48px;
+}
+.hero-title{
+    color: var(--white);
+font-family: "Playfair Display", sans-serif;
+font-size: 144px;
+font-weight: 400;
+}
+.hero-title_sub{
+    color: var(--white);
+font-family: "Playfair Display", sans-serif;
+font-size: 72px;
+}
+.hero-desc{
+    color: var(--white);
+font-size: 18px;
+width: 508px;
+padding: 12px 0 41px;
+}
+.hero-button{
+    color: var(--white);
+    text-align: center;
+    padding: 20px 61px 19px;
+    background-color: var(--purple);
+    border: none;
+border-radius: 10px;
+}
+.features{
+    background-color: var(--blue);
+    background-image: url("../Images/Fon2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 105px 0;
+}
+.features-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 5px solid var(--purple);
+    padding: 25px 50px;
+}
+.features-list_item:nth-child(2){
+    border-left: 1px solid var(--white);
+    border-right: 1px solid var(--white);
+    padding: 0 95px;
+    align-self: flex-start;
+}
+.features-list_title{
+    margin: 0 auto;
+    max-width: 160px;
+    color: var(--white);
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+font-size: 36px;
+font-weight: 400;
+}
+.reviews{
+    padding: 25px 0 114px;
+    background-color: var(--blue);
+    background-image: url("../Images/цветы1.svg"), url("../Images/Fon3.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, center;
+    background-size: auto, cover;
+}
+.reviews-title{
+    color: var(--white);
+text-align: center;
+font-family: "Playfair Display", sans-serif;
+font-size: 48px;
+font-weight: 400;
+margin-bottom: 24px;
+}
+.reviews-list{
+    display: flex;
+    gap: 93px;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-list_item{
+    width: 255px;
+padding: 49px 13px 29px;
+}
+.reviews-list_item:nth-child(1){
+    border-radius: 15px;
+background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+}
+.reviews-list_item:nth-child(2){
+    border-radius: 15px;
+background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+}
+.reviews-list_item:nth-child(3){
+    border-radius: 15px;
+background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+}
+.reviews-text{
+    color: var(--white);
+font-size: 24px;
+font-weight: 400;
+margin-bottom: 8px;
+}
+.date{
+    color: #D8D8D8;
+font-size: 14px;
+margin-bottom: 47px;
+}
+.users-box{
+    display: flex;
+}
+.users-info_people{
+    border-radius: 31px;
+}
+.users-info{
+    margin-left: 5px;
+}
+.users-info_name{
+    color: var(--white);
+font-size: 14px;
+}
+.users-info_with-us{
+    color: #D8D8D8;
+font-size: 12px;
+}
+.order{
+    background-image: url("../Images/Fon4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 21px 0 37px;
+}
+.order-title{
+color: var(--white);
+text-align: center;
+font-family: "Playfair Display", sans-serif;
+font-size: 48px;
+font-weight: 400;
+margin-bottom: 33px;
+}
+.order-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order-input{
+    width: 580px;
+height: 50px;
+border-radius: 50px;
+font-size: 24px;
+padding: 11px 0 11px 24px;
+margin-bottom: 19px;
+}
+.input-email{
+    width: 690px;
+    height: 60px;
+    padding: 12px 25px;
+}
+.button-order{
+    display: block;
+    color: var(--white);
+    border-radius: 16px;
+    background-color: var(--purple);
+    padding-bottom: 37px;
+    text-align: center;
+    border: none;
+padding: 20px 48px;
+}
+.footer{
+    background-color: #021635;
+    padding: 45px 0 50px;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9B9B9B;
+}
+.footer-list_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-list_text{
+    color: var(--white);
+font-size: 24px;
+margin-bottom: 10px;
+}
+.footer-list_link{
+    color: var(--white);
+font-size: 24px;
+text-decoration-line: underline;
+}
+.footer-info_text{
+    color:  var(--white);
+font-size: 18px;
+}
+.footer-info_text:nth-child(1){
+    margin: 24px 0 7px;
+}
+.footer-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-brand_img{
+    width: 108px;
+height: 81px;
+}
+.footer-brand_sign{
+    color: var(--white);
+font-family: "PT Serif", serif;
+font-size: 24px;
+}
